@@ -1,0 +1,99 @@
+.corpo, body{
+    margin: 0px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%
+}
+
+.inicio{
+    background-image: url(../imagens/book.png);
+    background-size: cover;
+    width: 100%;
+    height: 649px;
+
+}
+
+.inicio p{
+	position: absolute;
+	font-family: 'Trispace', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 230px;
+	color:white;
+	margin-left: 38%;
+}
+
+.gif p img{
+    text-align: center;
+    width: 200px;
+    height:130px;
+    display: block;
+    margin-left: 50%;
+    margin-right: auto;
+    margin-top: 270px;
+}
+
+.um{
+	margin-top: 0px;
+	background-image: url('../imagens/book1.png');
+	background-size: cover;
+    width: 100%;
+    height: 650px;
+
+}
+
+.um p{
+	font-family: 'Trispace', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 180px;
+    position: absolute;
+}
+
+.dois{
+
+	background-image: url('../imagens/book2.png');
+	background-size: cover;
+    width: 100%;
+    height: 780px;
+
+}
+
+.dois p{
+	font-family: 'Trispace', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 180px;
+    position: absolute;
+}
+.nav {
+    background-color: #000000;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+  }
+  .figure_navbar {
+    margin-inline-start: 3px;
+    margin-inline-end: 3px !important;
+    margin-block-start: 0em !important;
+    margin-block-end: 0em;
+  }
+.img_nav{
+    position: relative;
+    width: 70px;
+    height: 60;
+}
+.center{
+    position: absolute;
+    left: 50%;
+    margin-left: -70px !important;  /* 50% of your logo width */
+    display: block;
+        
+}

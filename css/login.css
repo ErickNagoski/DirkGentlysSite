@@ -1,0 +1,55 @@
+.fundo {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 200px;
+    background-color: rgba(126, 129, 134, 0.5);
+}
+.corpo, body{
+	background-image: url('../imagens/fundoquiz.png');
+	font-family: 'Trispace', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: white;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%
+}
+.center{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    margin-left: -190px !important;  /* 50% of your logo width */
+    display: block;
+        
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+button {
+
+	font-family: 'Trispace', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+  	background-color: #FFDF08; 
+	border: none;
+	color: black;
+	padding: 8px 8px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	transition-duration: 0.4s;
+    margin-top: 5px;
+    width: 80px;
+    border-radius: 2px;
+   
+}
+
+button:hover {
+  background-color: #242424;
+  color: white;
+}

@@ -1,0 +1,175 @@
+.corpo, body{
+    font-family: 'Trispace', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: white;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%
+}
+
+.inicio{
+    display: flex;
+    min-height: 100%;
+    background-image: url(../imagens/2temp.png);
+    background-size: cover;
+    width: 100%;
+    height: 645px;
+
+}
+
+.inicio p{
+	position: absolute;
+	font-size: 200px;
+	color:white;
+	margin-left:20%;
+}
+
+.gif p img{
+    text-align: center;
+    width: 200px;
+    height:130px;
+    display: block;
+    margin-left: 150%;
+    margin-right: auto;
+    margin-top: 270px;
+}
+
+.um{
+	margin-top: 0px;
+	background-image: url('../imagens/2temp1.png');
+	background-size: cover;
+    width: 100%;
+    height: 650px;
+
+}
+
+/*.um p img{
+    font-size: px;
+    color: white;
+    margin-left: 500%;
+    margin-right: 14%;
+    margin-top: -180px;
+    position: absolute;
+}*/
+
+.um p{
+    font-size: 45px;
+    text-align: center;
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-top: 200px;
+    position: absolute;
+}
+
+.dois{
+
+	background-image: url('../imagens/elenco2fundo.png');
+	background-size: cover;
+    width: 100%;
+    height: 700px;
+
+}
+.dois h1{
+
+    font-family: 'Trispace', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 90px;
+    color: white;
+    text-align: center;
+    margin-left: 33%;
+    margin-right: 25%;
+    margin-top: 100px;
+    position: absolute;
+}
+.dois p{
+
+    word-spacing:  150px;
+	font-family: 'Trispace', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 33px;
+    color: white;
+    text-align: center;
+    margin-left: 23%;
+    margin-right: 10%;
+    margin-top: 1px;
+    position: absolute;
+}
+
+li{
+    font-family: 'Trispace', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color:white;
+    margin-top: 200px;
+    margin:5em;
+    list-style-type: none;
+
+}
+.linha {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: 12em;
+}
+
+figure{
+    margin-top: 300px;
+
+}
+
+.tres{
+
+    background-image: url('../imagens/2temp2.png');
+    background-size: cover;
+    width: 100%;
+    height: 780px;
+
+}
+.tres h1{
+
+    word-spacing:  92px;
+    font-family: 'Trispace', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 90px;
+    color: white;
+    text-align: center;
+    margin-left: 39%;
+    margin-right: 42%;
+    margin-top: 150px;
+    position: absolute;
+}
+
+.tres p{
+    font-size: 45px;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 300px;
+    margin-bottom: 50px;
+    position: absolute;
+}
+.nav {
+    background-color: #000000;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+  }
+  .figure_navbar {
+    margin-inline-start: 3px;
+    margin-inline-end: 3px !important;
+    margin-block-start: 0em !important;
+    margin-block-end: 0em;
+  }
+.img_nav{
+    position: relative;
+    width: 70px;
+    height: 60;
+}
+.center{
+    position: absolute;
+    left: 50%;
+    margin-left: -70px !important;  /* 50% of your logo width */
+    display: block;
+        
+}

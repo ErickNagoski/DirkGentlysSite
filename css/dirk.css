@@ -1,0 +1,169 @@
+.fundo, body {
+    background-image: url('../imagens/fundo.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+        margin: 0px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%
+}
+
+.inicio{
+    background-image: url(../imagens/dirk.png);
+    background-size: cover;
+    width: 100%;
+    height: 780px;
+    transition: opacity 10s;
+
+}
+
+.gif p img{
+    text-align: center;
+    width: 60px;
+    width: 200px;
+    height:130px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+}
+
+.nomes p img {
+
+    margin-top: 100px;
+
+}
+
+.nomes{
+     font-family: 'Trispace', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+        text-align: center;
+    color:white;
+    font-size: 25px;
+}
+
+.topico {display: inline-block;}
+
+.topico p img {
+    float: right;
+    right: 0px;
+    width: 63%;
+    height: 450px;
+
+}
+
+.texto{
+    font-family: 'Trispace', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-left: 50px;
+    color: white;
+    text-align: right;
+    font-size: 40px;
+}
+
+.topico a img {
+
+    float: right;
+    width: 160px;
+    height: 50px;
+    text-align: left;
+    margin-left: 300px;
+    margin-bottom: 100px;
+}
+
+.topico a img:hover
+{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+.esquerda{
+    font-family: 'Trispace', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: right;
+    font-size: 60px;
+    margin-right: 230px;
+    color: white;
+}
+
+.topico1 {display: inline-block;}
+
+.topico1 p img {
+    float: left;
+    left: 5%;
+    height: 450px;
+
+}
+
+.topico1 a img {
+
+    float: left;
+    width: 160px;
+    height: 50px;
+    text-align: right;
+    margin-right: 300px;
+    margin-bottom: 100px;
+}
+
+.topico1 a img:hover
+{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+.texto1{
+    font-family: 'Trispace', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-right: 0px;
+    color: white;
+    text-align: left;
+    font-size: 40px;
+}
+
+.direita{
+    font-family: 'Trispace', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: left;
+    font-size: 60px;
+    margin-left: 230px;
+    color: white;
+}
+
+.fim{
+    background-image: url(../imagens/fim.png);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.fim p {
+
+    font-family: 'Trispace', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 36%;
+    font-size: 40px;
+    color: white;
+
+}
+
+.fim a img{
+
+    position: absolute;
+    margin-left: 43%;
+    margin-top: 200px;
+    width: 228.57px;
+    height: 71.42px;
+
+}
+
+.fim a img:hover
+{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
